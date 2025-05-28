@@ -11,13 +11,29 @@ body {
     align-items: center;
 }
 
+.puzzlink {
+    color: rgb(221, 81, 221);
+
+}
+
+.puzz-body {
+    background-color: beige;
+}
+
+.puzz-title {
+    color: purple;
+    font-size: 50px;
+}
+
 .title {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-style: italic;
     color: yellow;
+    font-size: 50px;
+    
 }
 
-h2 {
+.subheading {
     text-decoration: underline;
     font-weight: bold;
 }
@@ -28,6 +44,7 @@ h2 {
     flex-direction: column;
     align-items: center;
     gap: 10px;
+    margin-bottom: 30px;
 }
 
 span {
@@ -44,4 +61,16 @@ span {
 
 .image-three {
     max-width: 310px;
+}
+
+.puzz-one {
+    max-width: 400px;
+}
+
+.puzz-two {
+    max-width: 380px;
+}
+
+.puzz-three {
+    max-width: 400px;
 }
