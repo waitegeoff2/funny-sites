@@ -9,6 +9,7 @@ body {
     background-color: rgb(221, 81, 221);
     gap: 5px;
     align-items: center;
+    justify-content: center;
 }
 
 .puzzlink {
@@ -23,6 +24,7 @@ body {
 .puzz-title {
     color: purple;
     font-size: 50px;
+    align-items: center;
 }
 
 .title {
@@ -64,13 +66,13 @@ span {
 }
 
 .puzz-one {
-    max-width: 400px;
+    max-width: 330px;
 }
 
 .puzz-two {
-    max-width: 380px;
+    max-width: 330px;
 }
 
 .puzz-three {
-    max-width: 400px;
+    max-width: 330px;
 }
