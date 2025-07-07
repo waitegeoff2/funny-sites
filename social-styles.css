@@ -5,4 +5,32 @@
 
 body {
     background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.image-two {
+    width: 150px;
+    height: auto;
+}
+
+h1 {
+    font-size: 45px;
+}
+
+.user-input {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    
+    margin-top: 100px;
+}
+
+.input-fields {
+    font-size: 30px;
 }
