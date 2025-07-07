@@ -12,6 +12,10 @@ body {
     justify-content: center;
 }
 
+.social-body {
+    background-color: aliceblue;
+}
+
 .puzzlink {
     color: rgb(221, 81, 221);
 
