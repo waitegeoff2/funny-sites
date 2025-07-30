@@ -12,6 +12,10 @@ body {
     justify-content: center;
 }
 
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .social-body {
     background-color: aliceblue;
 }
@@ -22,13 +26,15 @@ body {
 }
 
 .puzz-body {
-    background-color: beige;
+    background-color: rgb(247, 249, 205);
 }
 
 .puzz-title {
-    color: purple;
+    color: rgb(7, 24, 213);
     font-size: 50px;
     align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
 }
 
 .title {
@@ -70,11 +76,11 @@ span {
 }
 
 .puzz-one {
-    width: 300px;
+    max-width: 400px;
 }
 
 .puzz-two {
-    max-width: 450px;
+    max-width: 400px;
 }
 
 .puzz-three {

@@ -6,10 +6,15 @@
 body {
     display: flex;
     flex-direction: column;
-    background-color: rgb(221, 81, 221);
+    background-color: rgb(104, 130, 99);
     gap: 5px;
     align-items: center;
     justify-content: center;
+}
+
+h2 {
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .social-body {
@@ -22,13 +27,14 @@ body {
 }
 
 .puzz-body {
-    background-color: beige;
+    background-color: rgb(97, 121, 97);
 }
 
 .puzz-title {
-    color: purple;
+    color: rgb(4, 13, 135);
     font-size: 50px;
     align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .title {
@@ -58,7 +64,7 @@ span {
 }
 
 .image-one {
-    max-width: 300px;
+    max-width: 400px;
 }
 
 .image-two {
@@ -70,7 +76,7 @@ span {
 }
 
 .puzz-one {
-    width: 300px;
+    max-width: 450px;
 }
 
 .puzz-two {
