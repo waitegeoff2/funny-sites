@@ -6,7 +6,7 @@
 body {
     display: flex;
     flex-direction: column;
-    background-color: rgb(221, 81, 221);
+    background-color: rgb(187, 187, 187);
     gap: 5px;
     align-items: center;
     justify-content: center;
@@ -14,6 +14,10 @@ body {
 
 h3 {
     font-size: 25px;
+}
+
+.flowers-subtitle {
+    font-size: 32px;
 }
 
 .social-body {
@@ -26,7 +30,7 @@ h3 {
 }
 
 .puzz-body {
-    background-color: beige;
+    background-color: rgb(205, 205, 205);
 }
 
 .puzz-title {
@@ -66,7 +70,7 @@ span {
 }
 
 .image-two {
-    max-width: 150px;
+    max-width: 200px;
 }
 
 .image-three {
